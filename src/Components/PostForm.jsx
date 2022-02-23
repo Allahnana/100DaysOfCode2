@@ -37,6 +37,8 @@ export class PostForm extends Component {
       <div>
           
           <form onSubmit={this.handleSubmit}>
+
+            <h1>Doings Form</h1>
               <div>
                 <input type="text" name="userID" value={userID} onChange= {this.changeHandler}/>
               </div>
